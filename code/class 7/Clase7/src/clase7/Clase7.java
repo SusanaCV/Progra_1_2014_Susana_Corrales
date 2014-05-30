@@ -43,6 +43,9 @@ public class Clase7 {
                     System.out.println(oejercicio2.MediaCadena());
                     System.out.println(oejercicio2.UltimoValor());
                     System.out.println(oejercicio2.Alrevez());
+                    System.out.println(oejercicio2.Guion());
+                    System.out.println(oejercicio2.Vocales());
+                    System.out.println(oejercicio2.Palindromo());
             }
       
 
