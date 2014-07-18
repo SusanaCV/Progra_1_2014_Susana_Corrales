@@ -12,7 +12,7 @@ public class BusquedaLineal {
     public int BuscarNombre(String[] nombres,String busqueda)
     {
         for (int i=0;i <nombres.length;i++){
-            if(nombres.equals(busqueda))
+            if(nombres[i].equals(busqueda))
             {
                 return i;
             }

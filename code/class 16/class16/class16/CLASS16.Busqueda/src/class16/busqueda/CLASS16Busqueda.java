@@ -22,9 +22,9 @@ public class CLASS16Busqueda {
         
         System.out.println();
         
-        String [] arreglo2={"Mario","Efren","Susana","Campbell","Agustin","Elias Guapo"};
+        String [] arreglo2={"Campbell","Agustin","Susana","Elias Guapo","Efren","Mario"};
         
-        BusquedaBinaria bn=new BusquedaBinaria();
+        BusquedaBinaria bb=new BusquedaBinaria();
         System.out.println("La busqueda Binaria es: "+bl.BuscarNombre(arreglo2, "Campbell"));
         
         System.out.println();

@@ -23,6 +23,7 @@ public class BusquedaBinaria {
             }
             else
             {
+               
                if (busqueda.compareTo(nombres[central])<0) {
                    elementoFinal=central-1;
                }

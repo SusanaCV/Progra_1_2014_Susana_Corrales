@@ -2,48 +2,50 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package class17;
+package class19;
 
 /**
  *
- * @author estudiante
+ * @author Estudiante
  */
 public class NodoDeLista {
     
     private String dato;
-    public String CuentaBancaria;
     private NodoDeLista siguiente;
     
     public NodoDeLista()
     {
-      dato="";
-      siguiente=null;
+        dato= "";
+        siguiente=null;
     }
 
-    public String getCuentaBancaria() {
-        return CuentaBancaria;
-    }
-
-    public void setCuentaBancaria(String CuentaBancaria) {
-        this.CuentaBancaria = CuentaBancaria;
-    }
-
+    /**
+     * @return the dato
+     */
     public String getDato() {
         return dato;
     }
 
+    /**
+     * @param dato the dato to set
+     */
     public void setDato(String dato) {
         this.dato = dato;
     }
 
+    /**
+     * @return the siguiente
+     */
     public NodoDeLista getSiguiente() {
         return siguiente;
     }
 
+    /**
+     * @param siguiente the siguiente to set
+     */
     public void setSiguiente(NodoDeLista siguiente) {
         this.siguiente = siguiente;
     }
     
-  
     
 }
